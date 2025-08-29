@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3001',
+        target: 'https://learning-nodejs-hb3u.onrender.com/',
         changeOrigin: true,
       },
     }
